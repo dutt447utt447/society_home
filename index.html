@@ -27,45 +27,60 @@
 </head>
 
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg">
-    <div class="container">
-      <!-- Logo -->
-      <a class="navbar-brand navbar-logo" href="#home" style="text-decoration: none; padding: 0;">
-        <img src="images/logo.png" alt="logo" class="logo-1" style="width: auto; height: 50px; border-radius: 5px;">
-      </a>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <!-- Logo -->
+    <a class="navbar-brand navbar-logo" href="#home" style="text-decoration: none; padding: 0;">
+      <img src="images/logo.png" alt="logo" class="logo-1" style="width: auto; height: 50px; border-radius: 5px;">
+    </a>
 
-      <!-- Navbar Toggler (Mobile View) -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="fas fa-bars"></span>
-      </button>
+    <!-- Navbar Toggler (Mobile View) -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="fas fa-bars"></span>
+    </button>
 
-      <!-- Navbar Links -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#home" data-scroll-nav="0">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about" data-scroll-nav="1">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#features" data-scroll-nav="2">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#testimonial" data-scroll-nav="4">Testimonials</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#how-it-work" data-scroll-nav="5">How it works</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact" data-scroll-nav="6">Contact</a>
-          </li>
-        </ul>
-      </div>
+    <!-- Navbar Links -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto d-flex align-items-center">
+        <li class="nav-item">
+          <a class="nav-link" href="#home" data-scroll-nav="0">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about" data-scroll-nav="1">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#features" data-scroll-nav="2">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#testimonial" data-scroll-nav="4">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#how-it-work" data-scroll-nav="5">How it works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact" data-scroll-nav="6">Contact</a>
+        </li>
+        <li class="nav-item" style="list-style-type: none; margin: 0; padding: 0;">
+          <a class="nav-link btn btn-primary text-white" href="http://smartsociety.duttit.com:5173/login" style="background-color: #45a6e7; color: white; text-decoration: none; padding: 3px 20px; border-radius: 10px;">
+            Login
+          </a>
+        </li>
+      </ul>
     </div>
-  </nav>
-  <!-- End Navbar -->
+  </div>
+</nav>
+<!-- End Navbar -->
+
+<!-- Add custom hover effect -->
+<style>
+  .nav-link.btn:hover {
+    background-color: #387fb0;  /* Darker blue for hover effect */
+    color: white;
+  }
+</style>
+
+
 
   <!-- Scripts -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
