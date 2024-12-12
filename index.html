@@ -83,7 +83,7 @@
         <div class="col-md-8 col-sm-12">
           <div class="banner-text">
             <h2 class="white" style="font-size: 70px; font-weight: bold;">Smart Society</h2>
-            <h6 class="white" style="font-size: 25px; margin-top: 10px;">Your Business Our Technology</h6>
+            <h6 class="white" style="font-size: 25px; margin-top: 10px;">Smart Solution</h6>
             <p class="banner-text white" style="font-size: 15px; margin-top: 20px; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.6;">
               Welcome to Smart Society, an innovative solution brought to you by Dutt IT Solutions Pvt. Ltd. We specialize in delivering cutting-edge digital solutions tailored to the needs of modern communities. Our expertise spans mobile and web app development, artificial intelligence, data analytics, and IT consulting, all aimed at empowering businesses and communities alike. At Smart Society, we strive to bridge the gap between technology and real-world needs, fostering efficiency, growth, and seamless user experiences. Our commitment to quality and customer satisfaction ensures that we remain a trusted partner in your digital transformation journey. Join us in creating smarter, more connected communities.</p>
             <ul>
@@ -179,61 +179,77 @@
 <!-------Video End------->
  
 
-<!-------Features Start-------> 
+<!------- Features Start -------> 
 <section id="features" class="feature section-padding" data-scroll-index='2'>
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="sectioner-header text-center">
-          <h3>Features</h3>
-          <span class="line"></span>
-          <p>Stay connected, manage your society, and enjoy seamless communication with these features.</p>
+          <h3 style="font-size: 28px;">Features</h3>
+          <span class="line" style="width: 50px; height: 3px; background: linear-gradient(to left, #a4c4db, #4f9ccf); margin: 10px auto;"></span>
+          <p style="font-size: 16px;">Stay connected, manage your society, and enjoy seamless communication with these features.</p>
         </div>
         <div class="section-content text-center">
           <div class="row">
-            <div class="col-md-4 col-sm-12">
+            <div class="col-md-4 col-12">
               <div class="media single-feature wow fadeInUp" data-wow-delay="0.2s">
                 <div class="media-body text-right media-right-margin">
                   <h5>Members</h5>
                   <p>Connect with your society members and stay informed about community activities.</p>
                 </div>
-                <div class="media-right icon-border"> <span class="fa fa-users" aria-hidden="true"></span> </div>
+                <div class="media-right icon-border"> 
+                  <span class="fa fa-users" aria-hidden="true"></span> 
+                </div>
               </div>
               <div class="media single-feature wow fadeInUp" data-wow-delay="0.4s">
                 <div class="media-body text-right media-right-margin">
                   <h5>Visitors</h5>
                   <p>Effortlessly manage visitor entries and keep track of all arrivals.</p>
                 </div>
-                <div class="media-right icon-border"> <span class="fa fa-address-book" aria-hidden="true"></span> </div>
+                <div class="media-right icon-border"> 
+                  <span class="fa fa-address-book" aria-hidden="true"></span> 
+                </div>
               </div>
               <div class="media single-feature wow fadeInUp" data-wow-delay="0.6s">
                 <div class="media-body text-right media-right-margin">
                   <h5>Notice Board</h5>
                   <p>Post and view important announcements and updates in your society.</p>
                 </div>
-                <div class="media-right icon-border"> <span class="fa fa-clipboard-list" aria-hidden="true"></span> </div>
+                <div class="media-right icon-border"> 
+                  <span class="fa fa-clipboard-list" aria-hidden="true"></span> 
+                </div>
               </div>
             </div>
+
             <div class="col-md-4 d-none d-md-block d-lg-block">
-              <div class="feature-mobile"> <img src="images/iphone-screen-with-shadow.png" class="img-fluid wow fadeInUp"/> </div>
+              <div class="feature-mobile"> 
+                <img src="images/iphone-screen-with-shadow.png" class="img-fluid wow fadeInUp" style="max-width: 100%; height: auto;"/> 
+              </div>
             </div>
-            <div class="col-md-4 col-sm-12">
+
+            <div class="col-md-4 col-12">
               <div class="media single-feature wow fadeInUp" data-wow-delay="0.2s">
-                <div class="media-left icon-border media-right-margin"> <span class="fa fa-credit-card" aria-hidden="true"></span> </div>
+                <div class="media-left icon-border media-right-margin"> 
+                  <span class="fa fa-credit-card" aria-hidden="true"></span> 
+                </div>
                 <div class="media-body text-left">
                   <h5>Payment</h5>
                   <p>Make direct payments for society dues easily and securely.</p>
                 </div>
               </div>
               <div class="media single-feature wow fadeInUp" data-wow-delay="0.4s">
-                <div class="media-left icon-border media-right-margin"> <span class="fa fa-comments" aria-hidden="true"></span> </div>
+                <div class="media-left icon-border media-right-margin"> 
+                  <span class="fa fa-comments" aria-hidden="true"></span> 
+                </div>
                 <div class="media-body text-left">
                   <h5>Complaint</h5>
                   <p>Submit complaints or feedback for better community management.</p>
                 </div>
               </div>
               <div class="media single-feature wow fadeInUp" data-wow-delay="0.6s">
-                <div class="media-left icon-border media-right-margin"> <span class="fa fa-bell" aria-hidden="true"></span> </div>
+                <div class="media-left icon-border media-right-margin"> 
+                  <span class="fa fa-bell" aria-hidden="true"></span> 
+                </div>
                 <div class="media-body text-left">
                   <h5>Notification Alert</h5>
                   <p>Get timely alerts and updates to stay informed about your community.</p>
@@ -246,7 +262,33 @@
     </div>
   </div>
 </section>
-<!-------Features End-------> 
+<!------- Features End ------->
+
+<style>
+  /* Media Queries for Smaller Devices */
+  @media (max-width: 768px) {
+    #features h3 {
+      font-size: 24px;
+    }
+    #features p {
+      font-size: 14px;
+    }
+    .media-body {
+      text-align: center;
+    }
+    .media-right, .media-left {
+      display: flex;
+      justify-content: center;
+    }
+    .single-feature {
+      margin-bottom: 20px;
+    }
+    .feature-mobile img {
+      max-width: 80%; /* Make image smaller on mobile */
+    }
+  }
+</style>
+
 
 
 
@@ -345,12 +387,12 @@
 
 
 
-<!--download section-->
+<!-- Download Section -->
 <section id="download" class="download section-padding" style="background: linear-gradient(to left, #a4c4db, #4f9ccf); background-size: cover; background-position: center; padding: 30px 0 0px 0; color: #fff; text-align: center;">
   <div class="container">
-    <div class="row">
+    <div class="row" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center;">
       <!-- Content Section (left) -->
-      <div class="col-md-6" style="text-align: center;">
+      <div class="col-md-6 col-12" style="text-align: center; flex: 1 1 100%;">
         <div class="sectioner-header" style="margin-bottom: 20px;">
           <h3 style="font-size: 36px; color: #fff;">Download Our App</h3>
           <span class="line" style="width: 50px; height: 3px; background: linear-gradient(to left, #a4c4db, #4f9ccf); margin: 10px auto;"></span>
@@ -359,7 +401,7 @@
 
         <!-- QR Code -->
         <div style="margin-top: 20px;">
-          <img src="images/QR_code.svg" alt="QR Code" style="width: 200px; margin: 0 auto; display: block;" />
+          <img src="images/QR_code.svg" alt="QR Code" style="max-width: 100%; height: auto; margin: 0 auto; display: block;" />
         </div>
 
         <!-- Call to Action -->
@@ -368,12 +410,12 @@
           <ul style="list-style: none; padding: 0; display: inline-block;">
             <li style="display: inline-block; margin: 15px;">
               <a href="https://www.apple.com/in/app-store/">
-                <img src="images/appstore.png" style="width: 200px; transition: transform 0.3s ease;" alt="Download on App Store" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
+                <img src="images/appstore.png" style="max-width: 100%; height: auto; transition: transform 0.3s ease;" alt="Download on App Store" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
               </a>
             </li>
             <li style="display: inline-block; margin: 15px;">
               <a href="https://play.google.com/store/games?hl=en">
-                <img src="images/playstore.png" style="width: 200px; transition: transform 0.3s ease;" alt="Get it on Google Play" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
+                <img src="images/playstore.png" style="max-width: 100%; height: auto; transition: transform 0.3s ease;" alt="Get it on Google Play" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
               </a>
             </li>
           </ul>
@@ -381,15 +423,33 @@
       </div>
 
       <!-- Image Section (right) -->
-      <div class="col-md-6">
+      <div class="col-md-6 col-12" style="flex: 1 1 100%; text-align: center;">
         <div class="section-content text-center" style="margin-bottom: 20px;">
           <!-- Adjusted smartphone image size -->
-          <img src="/images/login-removebg-preview.png" alt="Smartphone with blank screen" style="width: 500px; margin: 0 auto; display: block;" />
+          <img src="/images/login-removebg-preview.png" alt="Smartphone with blank screen" style="max-width: 100%; height: auto; margin: 0 auto; display: block;" />
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<style>
+  /* Media Queries for Smaller Devices */
+  @media (max-width: 768px) {
+    .sectioner-header h3 {
+      font-size: 24px;
+    }
+    .sectioner-header p {
+      font-size: 16px;
+    }
+    .section-content p {
+      font-size: 18px;
+    }
+    .download {
+      padding: 20px 0;
+    }
+  }
+</style>
 
 
 
